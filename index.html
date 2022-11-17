@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nature is Key Life Web Template</title>
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/helper.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Hero -->
+    <section class="hero is-fullheight">
+      <!-- hero head -->
+      <div class="hero-head">
+        <nav class="navbar is-hidden-desktop">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="">
+              <img src="img/Logo.png" alt="Logo" />
+            </a>
+            <div
+              class="navbar-burger burger"
+              data-target="navbarExampleTransparentExample"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+
+          <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Home</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Info</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Gallery</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Contact</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">FAQ</a>
+
+              <div class="navbar-end">
+                <p class="navbar-item">www.yourwebsite.com</p>
+                <div class="navbar-item">
+                  <a class="icon ml-2"><img src="img/Instagram.png" /></a>
+                  <a class="icon ml-2"><img src="img/Facebook.png" /></a>
+                  <a class="icon ml-2"><img src="img/Twitter.png" /></a>
+                  <a class="icon ml-2"><img src="img/WhatsApp.png" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div
+          class="columns navbar is-mobile is-marginless"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <div class="column left desktop">
+            <div class="navbar-brand">
+              <a href=""><img src="img/Logo.png" alt="logo" /></a>
+            </div>
+          </div>
+          <div class="column center desktop">
+            <div class="navbar-start">
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Home</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Info</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Gallery</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">Contact</a>
+              <a href="" class="navbar-item mr-n3 ml-5 is-size-5">FAQ</a>
+            </div>
+          </div>
+          <div class="column right right-column desktop">
+            <p class="navbar-item">www.yourwebsite.com</p>
+            <div class="columns navbar-item">
+              <div class="column">
+                <a class="icon ml-2"><img src="img/Instagram.png" /></a>
+                <a class="icon ml-2"><img src="img/Facebook.png" /></a>
+                <a class="icon ml-2"><img src="img/Twitter.png" /></a>
+                <a class="icon ml-2"><img src="img/WhatsApp.png" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Body -->
+      <div class="hero-body">
+        <div class="container">
+          <div class="title">
+            <h1>nature is</h1>
+            <h1>the key to life</h1>
+          </div>
+          <div class="text">
+            <h3>protect your nature</h3>
+          </div>
+          <div class="text">
+            <p class="mobile">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Architecto officiis corrupti nulla aliquam id placeat dolores,
+              perferendis.
+            </p>
+          </div>
+          <div class="button is-rounded">
+            <div><p>see more</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      (function () {
+        var burger = document.querySelector(".navbar-burger");
+        var nav = document.querySelector("#" + burger.dataset.target);
+
+        burger.addEventListener("click", function () {
+          burger.classList.toggle("is-active");
+          nav.classList.toggle("is-active");
+        });
+      })();
+    </script>
+  </body>
+</html>
